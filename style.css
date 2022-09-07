@@ -1,0 +1,9 @@
+body {
+    border: 10px solid green;
+}
+h1, h2, .my_photo {
+    border: 10px solid rgb(27, 98, 180) ;
+}
+section {
+    border: 10px solid rgb(214, 17, 83) ;
+}
