@@ -10,17 +10,20 @@
     font-family: Satisfy;
     src: url(/rsschool-cv/fonts/Satisfy/Satisfy-Regular.ttf);
 }
-
+html{
+    background-color: #ebebeb;
+}
 body {
-    border: 10px solid green;
     position: relative;
     width: 900px;
     height: 1100px;
     margin: auto; 
     font:16px/32px Raleway, serif; 
     text-align: justify;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    background-color: #fdf9ec;
+    color: #866443;
 }
-
 .my_photo {
     position: absolute;
     right: 50px;
@@ -29,7 +32,7 @@ body {
     width: 250px;
     height: 270px;
     border-radius: 120px;
-    
+    background-color: #decab0;
 }
 h1 {
     position: absolute;
@@ -45,8 +48,8 @@ span {
     transform: rotate(-10deg);
     text-align: center;
     font: 64px Satisfy,sans-serif;
+    color: #df4732;
 }
-
 h2 { 
     position: absolute;
     right: 10px;
@@ -54,34 +57,24 @@ h2 {
     width: 500px;
     text-align: center;
     font:32px DMMono,serif;
-    
 }
-h1, h2, .my_photo {
-    border: 10px solid rgb(27, 98, 180) ;
-}
-section {
-    border: 10px solid rgb(214, 17, 83) ;
-       
+h1, h2, h3 {
+    color: #36231e;
 }
 .right_box {
     position: absolute;
     top: 360px;
     right: 10px;
     width: 470px;
-    /* height: 700px;*/
 }
-
 .left_box {
     position: absolute;
     top: 360px;
     left: 10px;
     width: 360px;
-   /* height: 700px;*/
-
+    background-color: #decab0;
 }
-
 footer {
-    border: 10px solid rgb(214, 17, 83) ;
     position: absolute;
     left: 10px;
     bottom: 0px;
@@ -94,5 +87,22 @@ a {
     vertical-align: middle;
     text-align: center;
     font-size: 22px;
+    color: #36231e;
 }
+blockquote{
+    border:solid #36231e;
+    border-width:3px 0;
+    margin:5px 10px;
+    padding: 5px;
+    font-size:14px;
+    background-color:#decab0;
+    color: #423830;
+}
+
+
+
+
+    
+    
+
 
