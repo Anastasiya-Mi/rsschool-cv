@@ -1,9 +1,98 @@
+@font-face {
+    font-family:DMMono ;
+    src: url(/rsschool-cv/fonts/DM_Mono/DMMono-Medium.ttf);
+}
+@font-face {
+    font-family:Raleway;
+    src: url(/rsschool-cv/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(/rsschool-cv/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
 body {
     border: 10px solid green;
+    position: relative;
+    width: 900px;
+    height: 1100px;
+    margin: auto; 
+    font:16px/32px Raleway, serif; 
+    text-align: justify;
+}
+
+.my_photo {
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 270px;
+    border-radius: 120px;
+    
+}
+h1 {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    width: 500px;    
+    text-align:left;
+    font:bold 40px DMMono,serif; 
+    line-height: 0%;  
+}
+span {
+    display: block;
+    transform: rotate(-10deg);
+    text-align: center;
+    font: 64px Satisfy,sans-serif;
+}
+
+h2 { 
+    position: absolute;
+    right: 10px;
+    top: 240px;
+    width: 500px;
+    text-align: center;
+    font:32px DMMono,serif;
+    
 }
 h1, h2, .my_photo {
     border: 10px solid rgb(27, 98, 180) ;
 }
 section {
     border: 10px solid rgb(214, 17, 83) ;
+       
 }
+.right_box {
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    width: 470px;
+    /* height: 700px;*/
+}
+
+.left_box {
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    width: 360px;
+   /* height: 700px;*/
+
+}
+
+footer {
+    border: 10px solid rgb(214, 17, 83) ;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    width: 860px;
+}
+a {
+    display: inline-block;
+    width: 280px;
+    margin: 0px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+}
+
