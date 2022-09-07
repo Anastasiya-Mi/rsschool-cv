@@ -1,0 +1,108 @@
+@font-face {
+    font-family:DMMono ;
+    src: url(/rsschool-cv/fonts/DM_Mono/DMMono-Medium.ttf);
+}
+@font-face {
+    font-family:Raleway;
+    src: url(/rsschool-cv/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(/rsschool-cv/fonts/Satisfy/Satisfy-Regular.ttf);
+}
+html{
+    background-color: #ebebeb;
+}
+body {
+    position: relative;
+    width: 900px;
+    height: 1100px;
+    margin: auto; 
+    font:16px/32px Raleway, serif; 
+    text-align: justify;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    background-color: #fdf9ec;
+    color: #866443;
+}
+.my_photo {
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 270px;
+    border-radius: 120px;
+    background-color: #decab0;
+}
+h1 {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    width: 500px;    
+    text-align:left;
+    font:bold 40px DMMono,serif; 
+    line-height: 0%;  
+}
+span {
+    display: block;
+    transform: rotate(-10deg);
+    text-align: center;
+    font: 64px Satisfy,sans-serif;
+    color: #df4732;
+}
+h2 { 
+    position: absolute;
+    right: 10px;
+    top: 240px;
+    width: 500px;
+    text-align: center;
+    font:32px DMMono,serif;
+}
+h1, h2, h3 {
+    color: #36231e;
+}
+.right_box {
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    width: 470px;
+}
+.left_box {
+    position: absolute;
+    top: 360px;
+    left: 10px;
+    width: 360px;
+    background-color: #decab0;
+}
+footer {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    width: 860px;
+}
+a {
+    display: inline-block;
+    width: 280px;
+    margin: 0px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 22px;
+    color: #36231e;
+}
+blockquote{
+    border:solid #36231e;
+    border-width:3px 0;
+    margin:5px 10px;
+    padding: 5px;
+    font-size:14px;
+    background-color:#decab0;
+    color: #423830;
+}
+
+
+
+
+    
+    
+
+
